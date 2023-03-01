@@ -1,0 +1,14 @@
+numbers = [9,8,7,6,5]
+numbers.append(6)
+numbers.insert(0,8)
+numbers.remove(5)
+# numbers.clear()
+print(numbers)
+
+if 8 in numbers:
+    print(len(numbers))
+else:
+    print("numbers lacking ")
+
+
+
